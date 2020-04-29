@@ -1,3 +1,13 @@
+# Visual Studio Code
+.code
+
+# PrivateSky
+/code/cardinal
+/code/cardinal.js
+/temp
+/node_modules
+seed
+
 # Logs
 logs
 *.log
