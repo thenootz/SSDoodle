@@ -5,6 +5,7 @@
 /code/cardinal
 /code/cardinal.js
 /code/constitution/*.js*
+/code/scripts/bundles/*.js*
 /temp
 /node_modules
 seed
@@ -113,3 +114,4 @@ dist
 
 # TernJS port file
 .tern-port
+.DS_Store
