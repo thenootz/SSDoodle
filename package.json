@@ -1,7 +1,7 @@
 {
-    "name": "SSoddle",
+    "name": "SSDoddle",
     "version": "1.0.0",
-    "description": "Doddle SSApp",
+    "description": "Doddle as SSApp",
     "main": "index.js",
     "scripts": {
         "postinstall": "node ./node_modules/octopus/scripts/run",
