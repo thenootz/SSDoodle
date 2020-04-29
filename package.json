@@ -1,0 +1,20 @@
+{
+    "name": "SSoddle",
+    "version": "1.0.0",
+    "description": "Doddle SSApp",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "node ./node_modules/octopus/scripts/run",
+        "prebuild": "node ./node_modules/octopus/scripts/run prebuild",
+        "build": "node ./bin/build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "octopus": "git+https://github.com/PrivateSky/octopus.git#1.0"
+    },
+    "keywords": [
+        "ssapp"
+    ],
+    "author": "",
+    "license": "MIT"
+}
