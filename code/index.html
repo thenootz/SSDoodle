@@ -7,11 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <title>SSDoddle</title>
+    <title>SSApp as Doddle</title>
 </head>
 
 <body>
-    <h1>Hello from SSDoddle</h1>
+    <psk-app-root>
+        <header>
+        </header>
+        <section>
+            <psk-app-router failRedirectTo="/home"></psk-app-router>
+        </section>
+    </psk-app-root>
+    
+    <script src="/scripts/browserSupport.js"></script>
+    
+    <script src="/scripts/privatesky/webshims.js"></script>
+    <script src="/scripts/privatesky/pskruntime.js"></script>
+    <script src="/scripts/privatesky/bindableModel.js"></script>
+    
+    <script type="module" src="/cardinal/cardinal.esm.js"></script>
+    <script nomodule src="/cardinal.js"></script>
+    <script>
+        globalConfig = {
+            theme: 'default'
+        }
+    </script>
 </body>
 
 </html>

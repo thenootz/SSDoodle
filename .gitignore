@@ -4,6 +4,7 @@
 # PrivateSky
 /code/cardinal
 /code/cardinal.js
+/code/constitution/*.js*
 /temp
 /node_modules
 seed

@@ -1,0 +1,20 @@
+{
+    "basePagesUrl": "/pages/",
+    "menu": {
+        "defaultMenuConfig": {
+            "icon": "fa-bars",
+            "type": "route",
+            "component": "psk-page-loader",
+            "exact": false,
+            "indexed": true,
+            "pagePrefix": "?",
+            "historyType": "query"
+        },
+        "pages": [{
+                "name": "Home",
+                "path": "/home",
+                "pageSrc": "index.html"
+            }
+        ]
+    }
+}
